@@ -42,10 +42,10 @@ body{
 }
 .sumbtn{
     border-radius: 30px;
-    /* border: 2px solid #000000; */
+    border: 0px;
     background-color: #ffd172;
     width: 50%;
-    height: 40px;
+    height: 50px;
     font-weight: bold;
 }
 .sumbtn:hover{
@@ -53,10 +53,10 @@ body{
 }
 .resetbtn{
     border-radius: 30px;
-    /* border: 2px solid #000000; */
+    border: 0px;
     background-color: #ffd172;
     width: 50%;
-    height: 40px;
+    height: 50px;
     font-weight: bold;
 }
 .resetbtn:hover{
