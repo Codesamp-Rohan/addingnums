@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: #001212;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    padding: 10%;
+    animation-name: changingcolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.n1{
+    display: flex;
+    flex-direction: column;
+}
+.n1>label{
+    font-weight: 700;
+}
+.n1>input{
+    color: black;
+    background-color: #FF9800;
+    padding: 18px;
+    border: 0px;
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.sumbtn{
+    border-radius: 30px;
+    /* border: 2px solid #000000; */
+    background-color: #ffd172;
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+}
+.sumbtn:hover{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.resetbtn{
+    border-radius: 30px;
+    /* border: 2px solid #000000; */
+    background-color: #ffd172;
+    width: 50%;
+    height: 40px;
+    font-weight: bold;
+}
+.resetbtn:hover{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+@keyframes changingcolor {
+    0%{
+        background: linear-gradient(#e66465, #9198e5);
+    }
+    30%{
+        background: linear-gradient(#e66465, #9198e5);
+    }
+    50%{
+        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    }
+    80%{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    }
+    100%{
+        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    }
+    
+
+}
